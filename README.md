@@ -1,4 +1,4 @@
-# HW10-Taiwan-Weather
+# HW1-CWA：台灣天氣預報
 
 用 Python + 中央氣象署 (CWA) 開放資料 + SQLite + Streamlit 做的台灣天氣預報網頁。
 （Antigravity × Gemini × GitHub 的 Vibe Coding 練習專案）
