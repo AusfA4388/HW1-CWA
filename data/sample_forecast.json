@@ -1,0 +1,2978 @@
+{
+  "success": "true",
+  "records": {
+    "datasetDescription": "示範資料（非真實預報）",
+    "location": [
+      {
+        "locationName": "基隆市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "臺北市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "70"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "新北市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "桃園市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "50"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "新竹市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "新竹縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "苗栗縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "臺中市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "彰化縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "50"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "南投縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "32"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "33"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "32"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "雲林縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "70"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "嘉義市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "33"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "32"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "嘉義縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "70"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "32"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "臺南市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "32"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "35"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "高雄市",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "50"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "33"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "屏東縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "70"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "33"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "35"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "宜蘭縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "31"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "花蓮縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "70"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "50"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "33"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "臺東縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "27"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "澎湖縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "50"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "金門縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "陰短暫雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "10"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "50"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "23"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "稍有寒意"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "locationName": "連江縣",
+        "weatherElement": [
+          {
+            "elementName": "Wx",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲時陰"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "晴時多雲"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "多雲短暫陣雨"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "PoP",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "0"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "20"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "30"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MinT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "24"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "22"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "25"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "CI",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "悶熱"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "舒適"
+                }
+              }
+            ]
+          },
+          {
+            "elementName": "MaxT",
+            "time": [
+              {
+                "startTime": "2026-09-25 06:00:00",
+                "endTime": "2026-09-25 18:00:00",
+                "parameter": {
+                  "parameterName": "29"
+                }
+              },
+              {
+                "startTime": "2026-09-25 18:00:00",
+                "endTime": "2026-09-26 06:00:00",
+                "parameter": {
+                  "parameterName": "26"
+                }
+              },
+              {
+                "startTime": "2026-09-26 06:00:00",
+                "endTime": "2026-09-26 18:00:00",
+                "parameter": {
+                  "parameterName": "28"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
