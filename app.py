@@ -90,6 +90,7 @@ with right:
     )
 
 st.subheader("縣市近期預報")
+st.caption("ℹ️ 資料為中央氣象署「今明 36 小時天氣預報」，每個縣市只有未來 3 個 12 小時時段，不含一週以上的預報。")
 county_options = [c for c in COUNTIES if c in set(df["county"])]
 county = st.selectbox("選擇縣市", county_options, index=county_options.index("臺北市") if "臺北市" in county_options else 0)
 county_df = df[df["county"] == county].sort_values("start_time")
