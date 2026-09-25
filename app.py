@@ -3,10 +3,13 @@
 import sys
 from pathlib import Path
 
+import altair as alt
+import pandas as pd
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
+from counties import COUNTIES  # noqa: E402
 from database import load_forecast, parse_forecast, save_forecast  # noqa: E402
 from fetch_data import fetch_forecast  # noqa: E402
 
@@ -85,6 +88,53 @@ with right:
         color=["#38BDF8", "#2DD4BF"],
         height=max(300, 26 * len(chart_df)),
     )
+
+st.subheader("縣市近期預報")
+county_options = [c for c in COUNTIES if c in set(df["county"])]
+county = st.selectbox("選擇縣市", county_options, index=county_options.index("臺北市") if "臺北市" in county_options else 0)
+county_df = df[df["county"] == county].sort_values("start_time")
+
+
+def weather_icon(text: str) -> str:
+    if "雨" in text:
+        return "🌧️"
+    if "晴" in text and "雲" not in text:
+        return "☀️"
+    if "晴" in text or "多雲" in text and "陰" not in text:
+        return "⛅"
+    return "☁️"
+
+
+def period_label(row) -> str:
+    start, end = pd.to_datetime(row["start_time"]), pd.to_datetime(row["end_time"])
+    return f"{start.month}/{start.day} {start:%H:%M} – {end.month}/{end.day} {end:%H:%M}"
+
+
+cols = st.columns(len(county_df))
+for col, (_, row) in zip(cols, county_df.iterrows()):
+    with col.container(border=True):
+        st.caption(period_label(row))
+        st.markdown(f"### {weather_icon(row['weather'])} {row['weather']}")
+        st.markdown(f"**{row['min_temp']}° – {row['max_temp']}°C**")
+        st.caption(f"降雨機率 {row['rain_prob']}%　·　{row['comfort']}")
+
+trend = county_df.assign(
+    時段=pd.to_datetime(county_df["start_time"]).map(lambda t: f"{t.month}/{t.day} {t:%H}時")
+).rename(columns={"min_temp": "最低溫", "max_temp": "最高溫"})
+trend = trend.melt(id_vars="時段", value_vars=["最低溫", "最高溫"], var_name="類型", value_name="溫度")
+st.altair_chart(
+    alt.Chart(trend)
+    .mark_line(point=True, strokeWidth=3)
+    .encode(
+        x=alt.X("時段:N", sort=None, axis=alt.Axis(labelAngle=0), title=None),
+        y=alt.Y("溫度:Q", scale=alt.Scale(zero=False, nice=True), title="溫度 (°C)"),
+        color=alt.Color(
+            "類型:N", scale=alt.Scale(domain=["最低溫", "最高溫"], range=["#38BDF8", "#2DD4BF"]), title=None
+        ),
+    )
+    .properties(height=240),
+    width="stretch",
+)
 
 st.subheader("預報明細")
 st.dataframe(
