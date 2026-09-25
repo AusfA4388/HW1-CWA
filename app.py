@@ -75,9 +75,15 @@ with left:
     st.subheader("地圖")
     st.map(now.dropna(subset=["lat"]), latitude="lat", longitude="lon", size=8000, color="#2DD4BF")
 with right:
-    st.subheader("各縣市最高 / 最低溫")
+    st.subheader("各縣市溫度")
+    chart_df = now.sort_values("max_temp", ascending=False).set_index("county")[["min_temp", "max_temp"]]
     st.bar_chart(
-        now.set_index("county")[["min_temp", "max_temp"]], stack=False, color=["#38BDF8", "#2DD4BF"]
+        chart_df,
+        stack=False,
+        horizontal=True,
+        sort=False,
+        color=["#38BDF8", "#2DD4BF"],
+        height=max(300, 26 * len(chart_df)),
     )
 
 st.subheader("預報明細")
