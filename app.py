@@ -11,7 +11,21 @@ from database import load_forecast, parse_forecast, save_forecast  # noqa: E402
 from fetch_data import fetch_forecast  # noqa: E402
 
 st.set_page_config(page_title="台灣天氣預報", page_icon="🌦️", layout="wide")
-st.title("🌦️ 台灣天氣預報")
+st.markdown(
+    """
+    <style>
+    h1 { background: linear-gradient(90deg, #2DD4BF, #38BDF8); -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent; }
+    h2, h3 { color: #5EEAD4; }
+    [data-testid="stMetric"] { background: #11212A; border: 1px solid #1E3A44;
+         border-left: 4px solid #2DD4BF; border-radius: 10px; padding: 14px 18px; }
+    [data-testid="stMetricValue"] { color: #2DD4BF; }
+    [data-testid="stSidebar"] { border-right: 1px solid #1E3A44; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+st.title("台灣天氣預報")
 
 
 @st.cache_data(ttl=1800, show_spinner="正在取得氣象資料…")
@@ -59,10 +73,12 @@ if not now.empty:
 left, right = st.columns([1, 1])
 with left:
     st.subheader("地圖")
-    st.map(now.dropna(subset=["lat"]), latitude="lat", longitude="lon", size=8000)
+    st.map(now.dropna(subset=["lat"]), latitude="lat", longitude="lon", size=8000, color="#2DD4BF")
 with right:
     st.subheader("各縣市最高 / 最低溫")
-    st.bar_chart(now.set_index("county")[["min_temp", "max_temp"]], stack=False)
+    st.bar_chart(
+        now.set_index("county")[["min_temp", "max_temp"]], stack=False, color=["#38BDF8", "#2DD4BF"]
+    )
 
 st.subheader("預報明細")
 st.dataframe(
