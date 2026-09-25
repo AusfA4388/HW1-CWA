@@ -60,17 +60,27 @@ def _get_live(key: str) -> dict:
     return resp.json()
 
 
-def fetch_forecast() -> tuple[dict, bool]:
-    """回傳 (JSON 資料, 是否為即時資料)。"""
+def fetch_forecast() -> tuple[dict, bool, str | None]:
+    """回傳 (JSON 資料, 是否為即時資料, 錯誤訊息)。
+
+    有金鑰但抓取失敗（例如雲端主機連不到 CWA）時，退回示範資料並附上錯誤訊息；
+    沒有金鑰時直接用示範資料，錯誤訊息為 None。錯誤訊息不含授權碼。
+    """
+    sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
     key = load_api_key()
-    if key:
+    if not key:
+        return sample, False, None
+    try:
         data = _get_live(key)
-        DATA_DIR.mkdir(exist_ok=True)
-        RAW_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-        return data, True
-    return json.loads(SAMPLE_PATH.read_text(encoding="utf-8")), False
+        if "records" not in data:
+            raise RuntimeError("CWA API 回傳格式不符，請檢查授權碼")
+    except (RuntimeError, ValueError) as exc:
+        return sample, False, str(exc) if isinstance(exc, RuntimeError) else "CWA API 回傳的不是有效的 JSON"
+    DATA_DIR.mkdir(exist_ok=True)
+    RAW_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    return data, True, None
 
 
 if __name__ == "__main__":
-    data, live = fetch_forecast()
-    print("即時資料" if live else "示範資料", "- 縣市數:", len(data["records"]["location"]))
+    data, live, error = fetch_forecast()
+    print("即時資料" if live else "示範資料", "- 縣市數:", len(data["records"]["location"]), "| 錯誤:", error)

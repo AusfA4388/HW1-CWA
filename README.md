@@ -37,6 +37,19 @@ streamlit run app.py
 
 沒有金鑰時，程式會使用 `data/sample_forecast.json` 的**示範資料**（非真實預報，由 `src/make_sample.py` 產生）。
 
+抓取即時資料失敗（金鑰錯誤、網路不通、被擋）時，網頁會顯示警告並退回示範資料，不會當掉。
+
+## 部署到 Streamlit Community Cloud
+
+1. 到 <https://share.streamlit.io> 用 GitHub 登入，Create app，選這個 repo、分支 `main`、主檔案 `app.py`
+2. Advanced settings → Secrets，填入（授權碼不要放進 repo）：
+
+   ```toml
+   CWA_API_KEY = "你的授權碼"
+   ```
+
+3. Deploy。注意：雲端檔案系統是暫時的，`weather.db` 在重啟後會清空，所以「預報變化紀錄」無法長期累積。
+
 ## 資料限制
 
 使用的資料集 F-C0032-001 是「今明 36 小時天氣預報」：

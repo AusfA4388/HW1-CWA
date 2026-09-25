@@ -115,24 +115,26 @@ def period_short(start_time: str) -> str:
 
 # ---------- 資料 ----------
 @st.cache_data(ttl=1800, show_spinner="正在取得氣象資料…")
-def refresh() -> tuple[bool, str]:
-    data, live = fetch_forecast()
+def refresh() -> tuple[bool, str, str | None]:
+    data, live, error = fetch_forecast()
     df = parse_forecast(data)
     save_forecast(df)
     fetched_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     if live:  # 示範資料不進歷史紀錄
         append_history(df, fetched_at)
-    return live, fetched_at
+    return live, fetched_at, error
 
 
 try:
-    live, fetched_at = refresh()
-except Exception as exc:  # 網路或金鑰錯誤
-    st.error(f"抓取即時資料失敗：{exc}")
+    live, fetched_at, fetch_error = refresh()
+except Exception as exc:  # 連示範資料都讀不到時才會走到這裡
+    st.error(f"讀取資料失敗：{type(exc).__name__}")
     st.stop()
 
 if live:
     st.caption(f"資料來源：中央氣象署開放資料（F-C0032-001，36 小時預報）　·　資料抓取時間：{fetched_at[5:16]}")
+elif fetch_error:
+    st.warning(f"⚠️ 無法取得即時資料（{fetch_error}），目前顯示的是**示範資料**，並非真實預報。")
 else:
     st.warning("目前顯示的是**示範資料**。設定環境變數 `CWA_API_KEY` 後即可顯示即時預報（見 README）。")
 
