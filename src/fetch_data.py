@@ -8,9 +8,11 @@
 
 import json
 import os
+import ssl
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -33,15 +35,36 @@ def load_api_key() -> str | None:
     return None
 
 
+class _CwaAdapter(HTTPAdapter):
+    """CWA 的憑證缺少 Subject Key Identifier，Python 3.13 的嚴格檢查會拒絕。
+    仍然驗證憑證鏈與主機名稱，只關閉 VERIFY_X509_STRICT，且只掛在 CWA 網域上。"""
+
+    def init_poolmanager(self, *args, **kwargs):
+        ctx = ssl.create_default_context()
+        ctx.verify_flags &= ~ssl.VERIFY_X509_STRICT
+        kwargs["ssl_context"] = ctx
+        super().init_poolmanager(*args, **kwargs)
+
+
+def _get_live(key: str) -> dict:
+    """呼叫 CWA API。錯誤訊息不含網址，避免授權碼外洩。"""
+    session = requests.Session()
+    session.mount("https://opendata.cwa.gov.tw", _CwaAdapter())
+    try:
+        resp = session.get(API_URL, params={"Authorization": key, "format": "JSON"}, timeout=20)
+        resp.raise_for_status()
+    except requests.HTTPError as exc:
+        raise RuntimeError(f"CWA API 回應錯誤 (HTTP {exc.response.status_code})，請檢查授權碼") from None
+    except requests.RequestException as exc:
+        raise RuntimeError(f"無法連線到 CWA API：{type(exc).__name__}") from None
+    return resp.json()
+
+
 def fetch_forecast() -> tuple[dict, bool]:
     """回傳 (JSON 資料, 是否為即時資料)。"""
     key = load_api_key()
     if key:
-        resp = requests.get(
-            API_URL, params={"Authorization": key, "format": "JSON"}, timeout=20
-        )
-        resp.raise_for_status()
-        data = resp.json()
+        data = _get_live(key)
         DATA_DIR.mkdir(exist_ok=True)
         RAW_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         return data, True
