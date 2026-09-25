@@ -1,7 +1,7 @@
 """台灣天氣預報 Streamlit 應用。執行：streamlit run app.py"""
 
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -15,6 +15,7 @@ from counties import COUNTIES  # noqa: E402
 from database import append_history, load_forecast, load_history, parse_forecast, save_forecast  # noqa: E402
 from fetch_data import fetch_forecast  # noqa: E402
 
+TAIPEI = timezone(timedelta(hours=8))  # 雲端主機是 UTC，時間一律以台灣時間顯示
 TEAL, BLUE = "#2DD4BF", "#38BDF8"
 REGIONS = ["北部", "中部", "南部", "東部", "離島"]
 
@@ -119,7 +120,7 @@ def refresh() -> tuple[bool, str, str | None]:
     data, live, error = fetch_forecast()
     df = parse_forecast(data)
     save_forecast(df)
-    fetched_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    fetched_at = datetime.now(TAIPEI).strftime("%Y-%m-%d %H:%M:%S")
     if live:  # 示範資料不進歷史紀錄
         append_history(df, fetched_at)
     return live, fetched_at, error
